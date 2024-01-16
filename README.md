@@ -54,11 +54,3 @@ To run this project locally, follow these steps:
 - **Description**: Deletes a vehicle by ID.
 - **Response**: HTTP status OK (200) with no content.
 
-Usage
-You can use this project as a starting point for building a vehicle management system. Customize it according to your specific requirements and integrate it into your application.
-
-Contributing
-Feel free to contribute to this project by submitting bug reports, feature requests, or pull requests. Your contributions are highly appreciated.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
