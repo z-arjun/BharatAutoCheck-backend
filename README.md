@@ -1,4 +1,4 @@
-# Bharat Auto Check - Vehicle Management System
+# Bharat Auto Check - Vehicle Inspection System
 
 ## Overview
 Bharat Auto Check is a Java Spring Boot application designed for managing vehicle records. It provides RESTful APIs for CRUD (Create, Read, Update, Delete) operations on vehicle data.
