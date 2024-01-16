@@ -8,7 +8,7 @@ Bharat Auto Check is a Java Spring Boot application designed for managing vehicl
 ### Table of Contents
 - Getting Started
 - Endpoints
-- 
+
 ### Getting Started
 To run this project locally, follow these steps:
 
