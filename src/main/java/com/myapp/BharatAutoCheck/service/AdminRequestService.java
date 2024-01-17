@@ -11,11 +11,11 @@ import java.util.List;
 
 @Service
 @Transactional
-public class RequestService {
+public class AdminRequestService {
     private final VehicleRepo vehicleRepo;
 
     @Autowired
-    public RequestService(VehicleRepo vehicleRepo) {
+    public AdminRequestService(VehicleRepo vehicleRepo) {
         this.vehicleRepo = vehicleRepo;
     }
 

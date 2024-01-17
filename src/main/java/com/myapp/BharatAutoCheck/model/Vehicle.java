@@ -13,8 +13,10 @@ public class Vehicle implements Serializable{
     private int year;
     private String vehicleType;
 
-    // Constructor
+    public Vehicle() {
+    }
 
+    // Constructor
     public Vehicle(String id, String vehicleNumber, String model, int year, String vehicleType) {
         this.id = id;
         this.vehicleNumber = vehicleNumber;
