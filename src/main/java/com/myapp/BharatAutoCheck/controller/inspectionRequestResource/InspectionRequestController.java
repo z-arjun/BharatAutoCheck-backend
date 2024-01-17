@@ -19,8 +19,7 @@ public class InspectionRequestController {
      }
 
     @PostMapping("/add/inspection-request")
-    public ResponseEntity<InspectionRequest> createInspectionRequest(@RequestBody InspectionRequest inspectionRequest) {
-        inspectionRequestService.saveRequest(inspectionRequest);
-        return ResponseEntity.ok(inspectionRequest);
+    public ResponseEntity<?> createInspectionRequest(@RequestBody InspectionRequest inspectionRequest) {
+        return inspectionRequestService.saveRequest(inspectionRequest);
     }
 }

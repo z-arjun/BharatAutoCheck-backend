@@ -1,6 +1,7 @@
 package com.myapp.BharatAutoCheck.controller.employeeResource;
 
 import com.myapp.BharatAutoCheck.model.Vehicle;
+import com.myapp.BharatAutoCheck.model.VehicleDetails;
 import com.myapp.BharatAutoCheck.service.AdminRequestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -21,8 +22,8 @@ public class AdminVehicleController {
     }
 
     @GetMapping("/all")
-        public ResponseEntity<List<Vehicle>> getAllEmployee(){
-        List<Vehicle> requests = adminRequestService.findAllEmployee();
+        public ResponseEntity<List<VehicleDetails>> getAllEmployee(){
+        List<VehicleDetails> requests = adminRequestService.findAllVehiclesDetails();
         return new ResponseEntity<>(requests, HttpStatus.OK);
     }
 
