@@ -1,5 +1,5 @@
-package com.myapp.BharatAutoCheck.repository;
-import com.myapp.BharatAutoCheck.model.Vehicle;
+package com.myapp.VahanEssentials.repository;
+import com.myapp.VahanEssentials.model.Vehicle;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

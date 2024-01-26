@@ -1,4 +1,4 @@
-package com.myapp.BharatAutoCheck;
+package com.myapp.VahanEssentials;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

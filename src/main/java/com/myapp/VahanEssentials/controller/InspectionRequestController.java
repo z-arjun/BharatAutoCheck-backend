@@ -1,7 +1,7 @@
-package com.myapp.BharatAutoCheck.controller.inspectionRequestResource;
+package com.myapp.VahanEssentials.controller;
 
-import com.myapp.BharatAutoCheck.model.InspectionRequest;
-import com.myapp.BharatAutoCheck.service.InspectionRequestService;
+import com.myapp.VahanEssentials.model.InspectionRequest;
+import com.myapp.VahanEssentials.service.InspectionRequestService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

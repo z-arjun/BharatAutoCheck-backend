@@ -1,4 +1,4 @@
-package com.myapp.BharatAutoCheck.model;
+package com.myapp.VahanEssentials.model;
 
 import javax.persistence.*;
 import java.io.Serializable;

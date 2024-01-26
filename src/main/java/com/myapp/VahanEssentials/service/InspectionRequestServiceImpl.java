@@ -1,7 +1,7 @@
-package com.myapp.BharatAutoCheck.service;
+package com.myapp.VahanEssentials.service;
 
-import com.myapp.BharatAutoCheck.model.InspectionRequest;
-import com.myapp.BharatAutoCheck.repository.InspectionRequestRepository;
+import com.myapp.VahanEssentials.model.InspectionRequest;
+import com.myapp.VahanEssentials.repository.InspectionRequestRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
