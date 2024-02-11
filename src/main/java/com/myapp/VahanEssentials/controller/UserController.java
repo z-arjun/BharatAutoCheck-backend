@@ -34,24 +34,10 @@ public class UserController {
         return userService.signup(user);
     }
 
-//    @PostMapping("/signin")
-//    public ResponseEntity<String> signin(@RequestBody LoginRequest loginRequest) {
-//        // Implement user signin logic
-//        User user = userService.findByUsername(loginRequest.getUsername());
-//        if (user == null || !passwordEncoder.matches(loginRequest.getPassword(), user.getPassword())) {
-//            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid username or password");
-//        }
-//
-//        // Generate and return authentication token (JWT token, for example)
-//        String token = generateAuthToken(user);
-//
-//        return ResponseEntity.ok(token);
-//    }
-
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody User loginForm) {
         Authentication authentication = authenticationManager.authenticate(
-                new UsernamePasswordAuthenticationToken(loginForm.getUsername(), loginForm.getPassword()));
+                new UsernamePasswordAuthenticationToken(loginForm.getEmail(), loginForm.getPassword()));
 
         SecurityContextHolder.getContext().setAuthentication(authentication);
 
