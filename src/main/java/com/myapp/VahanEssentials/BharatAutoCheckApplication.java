@@ -1,5 +1,7 @@
 package com.myapp.VahanEssentials;
 
+import com.descope.client.Config;
+import com.descope.client.DescopeClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;

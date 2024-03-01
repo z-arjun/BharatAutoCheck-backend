@@ -56,11 +56,25 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>io.jsonwebtoken</groupId>
-			<artifactId>jjwt</artifactId>
-			<version>0.9.1</version> <!-- Use the latest version available -->
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.30</version>
+			<scope>provided</scope>
+		</dependency>
+
+      <!--	code for descope-->
+
+     <dependency>
+		 <groupId>com.descope</groupId>
+		 <artifactId>java-sdk</artifactId>
+		 <version>1.0</version>
+     </dependency>
 	</dependencies>
 
 	<build>
@@ -71,5 +85,16 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<profiles>
+		<profile>
+			<id>prod</id>
+			<properties>
+				<spring.profiles.active>
+					prod
+				</spring.profiles.active>
+			</properties>
+		</profile>
+	</profiles>
 
 </project>
